@@ -2,3 +2,8 @@ extends layout
 
 block content
     h1 #{title}
+      each person in people
+       li= person.name + " " + person.surname
+      else
+        li pustooo
+      

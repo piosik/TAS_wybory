@@ -1,15 +1,15 @@
-let mongoose = require('mongoose');
+var mongoose = require('mongoose');
 
 // People schema
-let peopleSchema = mongoose.Schema({
+var peopleSchema = mongoose.Schema({
   name:{
-    type:String,
+    type: String,
     required:true
   },
   surname:{
-    type:String,
+    type: String,
     required:true
   }
 });
 
-let People = module.exports = mongoose.model('People', peopleSchema);
+var People = module.exports = mongoose.model('People', peopleSchema);
