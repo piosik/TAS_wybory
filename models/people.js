@@ -11,3 +11,5 @@ let peopleSchema = mongoose.Schema({
     required:true
   }
 });
+
+let People = module.exports = mongoose.model('People', peopleSchema);
