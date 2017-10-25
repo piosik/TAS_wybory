@@ -1,0 +1,16 @@
+{
+  "name": "mojaapka",
+  "version": "1.0.0",
+  "description": "Aplikacja na TAS",
+  "main": "app.js",
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "author": "Maciej Strelczuk",
+  "license": "ISC",
+  "dependencies": {
+    "express": "~4.15.5",
+    "mongodb": "^2.2.33",
+    "mongoose": "^4.12.4"
+  }
+}
