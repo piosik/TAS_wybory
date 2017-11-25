@@ -3,7 +3,7 @@ var path = require('path');
 var mongoose = require('mongoose');
 
 // Init Mongoose
-mongoose.connect('mongodb://localhost/nodekb');
+mongoose.connect('mongodb://Sn0weK:PogChamp123@cluster0-shard-00-00-5uldp.mongodb.net:27017,cluster0-shard-00-01-5uldp.mongodb.net:27017,cluster0-shard-00-02-5uldp.mongodb.net:27017/test?ssl=true&replicaSet=Cluster0-shard-0&authSource=admin');
 var db = mongoose.connection;
 
 // Check connection
@@ -40,12 +40,26 @@ app.get('/', (req, res) => {
   })
 })
 
+app.get('/hello', (req, res) => {
+	res.send('Hello World!')
+	})
+
+
 // Add route
-app.get('/ppl/add', function(req, res){
+app.get('/ppl/dodawanie-kandydata', function(req, res){
   res.render('add_candy', {
     title:'Add candidate'
   });
 });
+
+// glosowanie wyborcow
+
+app.get('/ppl/logowanie-wyborcy', function(req, res){
+  res.render('add_candy', {
+    title:'Add voter'
+  });
+});
+
 
 //Start Server
 app.listen(3000, function () {
