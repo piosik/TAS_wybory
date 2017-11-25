@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "wybory-187112",
+  "private_key_id": "e39311689510aed13ae5cc5484407959be9c20a6",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQDYNlFcvpN45g7G\nW+DXpduHTddvA2D81i7Y2TXGiXhhkAeOC6sSPBn6dKkl3Ma3tcICJBZYdGW+v6Cm\nycMKhRv3J5eJ9E4dgd9XBGhJRTH6yztItn+I6OB2eFk8RQ1byCK29wgu077MephX\nyyIq27GH1rTgsFALmrooH8gKeHr/EVIsrw3Z2CUUwUK4XDKvrMHGGspctTYY0Vp9\n2+62OXnheHas1519ZFCC0WRQEnS2vXxOskrQDcTG7BP2h3SLt/Z9sjeQlTQvrNiA\nhBtPZnjwjNFkL9qQJrPqrtrLGQFBgwfsyqca5TUqZlVzSXfQubaVDnb7Y6wnhc4i\nvyyztCzPAgMBAAECggEAIqJk2yXzaqjzp0ZoLd3gMibqgoUjNVfmo4775G9OAiw3\nwZh7PA22SElaynljYwycZN+8rUkL/rJ5/MMSLsO5ge3CLR5I9cTBmZICVfEIe2Ow\nffUvWHzxbpjYYTqwfp+AdsL7TmurQzHE6JSzcZ5wAadc9ycsfgdi7Z2AW7OxWYf0\nkFj92DHYUerTqs4z6Gqh86qGMglbjM0IB+C48I/8TgC4ifNuLJMZ9Q9QM7PYxD2G\nkYOWU0P/YYbWLKb93NnZvsk5hPVpYxLzfTHChJeusG2QQye4geB5sED9SOSI3r70\njnuVzDF+YBzjPSTxfMmSVJtxisePQpJZMbBEDcJE6QKBgQDt6+ZrG+hrF/bDIjHW\nOc5cdh6dQtaD0VM8vRkmHAaDZYbDIGjJTjr4I6RnRI5oR/Xd6S4tZopMxHGgflXq\nY5eebfYT5h+2pSZz6q0syjqpNJptvgDbSluL9++20qwgHkPvUqGHcP/zc8V3C6nX\nMkOWd3/c30lc+lVNq+RhXfiQyQKBgQDopB+oZAT8ah1M5Qa+1N5TaAqqE+0/ifb5\nMpv3gBahZXTPvec0ERZ7gtD13gH8msehq9wLMzMnC875MbdZXaN4E28flcHxGVIR\nn48j+vFYWYBrmwglxkWD75OH2uhIUzI0iGvHI3gR+xZnsEyZxwIu302USdjRWYXv\n4iq08tv01wKBgQCYJNNbSSRuX4uwKwy9loetPufC3vv4nYJiA/ayFRfhLKpp2y7H\nFFzHU1uNohyC+Ql0F+ospDbqcnDLFh7w3TEW4fCLtwwuqxuU4sxNKSEsFPRwGyHH\nGZzDPBCx07S4cUI2J5wd1ZgHYdAzmWTJtV3dOZutbagnafnkyngn/4S1aQKBgQDF\nRIZjr4xazVBTJ9F0d+SeLRb96S/ANSjrXnLKiB6odPN8RLeMewDpcp/mHH7qyASH\nnsdT5/J0JZs3y2SBrtkytKgBzGdMHgBtWTNzexKzrBEtLaTXAy1nFvuus31L9uAX\nk6Zwki76cEMrYV9S9mFvhYKvP39O5e6g3tL/5P+GuQKBgQCHBBCfdTdZDTl74x92\neBKtLAMpHZrGL7KyjpHZc5RfPebKRVQAievat6CMyg6RmMr85iEiqM2pAmml2Dpv\n5cFm2jNP/Y7OHaQVMOBzfiLhvuOor0CaKRE7EU9ezlHaxafHWW1ijUJy/JBHMYtz\nt48mQSrhFbL3KNAELBst9rD2Vg==\n-----END PRIVATE KEY-----\n",
+  "client_email": "kandydat@wybory-187112.iam.gserviceaccount.com",
+  "client_id": "103692381183461738879",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://accounts.google.com/o/oauth2/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/kandydat%40wybory-187112.iam.gserviceaccount.com"
+}
