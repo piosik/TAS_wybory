@@ -3,7 +3,7 @@ var path = require('path');
 var mongoose = require('mongoose');
 
 // Init Mongoose
-mongoose.connect('mongodb://DTAS:qwerty123@cluster0-shard-00-00-wapb9.mongodb.net:27017,cluster0-shard-00-01-wapb9.mongodb.net:27017,cluster0-shard-00-02-wapb9.mongodb.net:27017/test?ssl=true&replicaSet=Cluster0-shard-0&authSource=admin');
+mongoose.connect('mongodb://DTAS:qwerty123@cluster0-shard-00-00-wapb9.mongodb.net:27017,cluster0-shard-00-01-wapb9.mongodb.net:27017,cluster0-shard-00-02-wapb9.mongodb.net:27017/wybory?ssl=true&replicaSet=Cluster0-shard-0&authSource=admin');
 var db = mongoose.connection;
 
 // Check connection
@@ -34,18 +34,16 @@ app.set('view engine', 'pug');
 
 // Home Route
 app.get('/', (req, res) => {
-
-  db.collection('Users').find().toArray((err, result) => {
+  db.collection('users').find().toArray((err, result) => {
     if (err) return console.log(err);
     // renders index.ejs
-    res.render('index', {users: result})
+    res.render('index', {users : result})
   })
-
 })
 
 app.get('/hello', (req, res) => {
-	res.send('Hello World!')
-	})
+  res.send('Hello World!')
+})
 
 
 // Add route

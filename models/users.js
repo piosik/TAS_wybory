@@ -1,5 +1,4 @@
 var mongoose = require('mongoose');
-
 // Users schema
 var usersSchema = mongoose.Schema({
   imie:{
