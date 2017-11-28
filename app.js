@@ -24,20 +24,23 @@ db.on('disconnected', function() {
 const app = express();
 
 // Bring in Models
-var People = require('./models/people');
+var Users = require('./models/users');
+
+
 
 // Load View Engine
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'pug');
 
-
 // Home Route
 app.get('/', (req, res) => {
-  db.collection('people').find().toArray((err, result) => {
-    if (err) return console.log(err)
+
+  db.collection('Users').find().toArray((err, result) => {
+    if (err) return console.log(err);
     // renders index.ejs
-    res.render('index', {people: result})
+    res.render('index', {users: result})
   })
+
 })
 
 app.get('/hello', (req, res) => {

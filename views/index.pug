@@ -2,7 +2,7 @@ extends layout
 
 block content
     h1 #{title}
-      each person in people
-       li= person.name + " " + person.surname
+      each person in users
+       li= person.imie + " " + person.nazwisko
       else
         li pustooo
