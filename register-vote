@@ -1,0 +1,110 @@
+
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Wybór Kandydata</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <script src='https://www.google.com/recaptcha/api.js'></script>
+</head>
+<body>
+    <div class="container">
+        <div class="jumbotron">
+            <h2 class="text-center">Wybór Kandydata</h2>
+        </div>
+
+        <div class="row input-space">
+            <div class="col-sm-6 col-sm-offset-3">
+                <div class="input-group input-group-lg">
+                    <span class="input-group-addon" id="sizing-addon1">Imię</span>
+                    <input type="text" class="form-control" placeholder="Firstname" aria-describedby="sizing-addon1">
+                </div>
+            </div> 
+        </div>  
+        <div class="row input-space">
+            <div class="col-sm-6 col-sm-offset-3">
+                    <div class="input-group input-group-lg">
+                        <span class="input-group-addon" id="basic-addon1">Nazwisko</span>
+                        <input type="text" class="form-control" placeholder="Lastname" aria-describedby="basic-addon1">
+                    </div>
+            </div>
+        </div>
+       
+
+        <div class="row input-space">
+            <div class="col-sm-6 col-sm-offset-3">
+                 <div class="input-group input-group-lg">
+                    <span class="input-group-addon" id="sizing-addon1">PESEL</span>
+                    <input type="number" class="form-control" placeholder="PESEL Number" aria-describedby="sizing-addon1">
+                </div>
+            </div>
+        </div>
+        <div class="row input-space">
+            <div class="col-sm-6 col-sm-offset-3">
+            
+            
+                <div class="RADIO">
+                    <label>
+                        <span class="input-group-addon" id="sizing-addon1"> 
+                        <input type="radio" name="radioGroup" value="option1" />
+                        Opcja nr 1
+                    </label>   
+                        </span>
+                </div>
+                <div class="RADIO">
+                    <label>
+                        <span class="input-group-addon" id="sizing-addon2"> 
+                        <input type="radio" name="radioGroup" value="option2" />
+                        Opcja nr 2
+                    </label>  
+                       
+                        </span>
+                </div>
+                <div class="RADIO">
+                    <label>
+                        <span class="input-group-addon" id="sizing-addon3"> 
+                        <input type="radio" name="radioGroup" value="option3" />
+                        Opcja nr 3
+                    </label>   
+                        </span>
+                </div>
+                <div class="RADIO">
+                    <label>
+                        <span class="input-group-addon" id="sizing-addon4"> 
+                        <input type="radio" name="radioGroup" value="option4" />
+                        Opcja nr 4 
+                    </label>   
+                        </span>
+                </div>
+                
+                
+               <center><div class="g-recaptcha" data-sitekey="6LdrmzwUAAAAAKUkmMl_x_ayLnRoCFnt6yjyCL5h"></div></center> 
+                <!--js-->
+                <script src='https://www.google.com/recaptcha/api.js'></script>
+                
+                
+
+            </div>
+        </div>
+
+            
+        
+
+        </div>
+
+        
+             </div>
+         </div>
+         <br>
+         <div class="row input-space">
+                <div class="col-sm-6  col-sm-offset-3 text-center">
+                    <button type="submit" class="btn btn-primary btn-lg">Oddaj głos</button>
+                </div>
+            </div>
+    </div>
+</body>
+</html>
